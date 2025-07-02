@@ -1,0 +1,9 @@
+Django>=5.0,<6.0
+djangorestframework>=3.15,<4.0
+djangorestframework-simplejwt>=5.0,<6.0
+django-cors-headers>=4.0,<5.0
+gunicorn>=20.0,<23.0 # Gunicorn für die Produktion hinzugefügt
+psycopg2-binary>=2.9,<3.0 # Falls PostgreSQL verwendet wird (gute Praxis für Prod)
+whitenoise>=6.0,<7.0 # Für das Serven von Static Files direkt mit Gunicorn/Django
+
+dj-database-url>=2.0,<3.0
